@@ -2,8 +2,8 @@ import media
 import fresh_tomatoes
 import requests
 
-data_string = """https://api.themoviedb.org/3/search/movie?api_key=
-                 0bf21ff60196bf22bce9136c1db1da7c&query="""
+data_string = ("https://api.themoviedb.org/3/search/movie?api_key"
+               "=0bf21ff60196bf22bce9136c1db1da7c&query=")
 movies = []
 
 
